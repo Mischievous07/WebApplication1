@@ -10,10 +10,10 @@ namespace MyApi.Controllers
         [HttpGet]
         public ActionResult<object> Get()
         {
-            // Replace "Alice" with any name you want to return
+            // the Name
             var response = new { name = "Holden" };
 
-            // Returns HTTP 200 with JSON: { "name": "Alice" }
+            // Returns HTTP 200 with JSON: { "name": "Holden" }
             return Ok(response);
         }
 
